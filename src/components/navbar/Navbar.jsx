@@ -11,12 +11,9 @@ const links = [
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <div>Logo</div>
-      <div>
-        <Link href="/">Home Page</Link>
-        <Link href="/about">About Page</Link>
-        <Link href="/contact">Contact Page</Link>
-        <Link href="/blog">Blog Page</Link>
+      <div className={styles.logo}>Logo</div>
+      <div className={styles.links}>
+        <Links />
       </div>
     </div>
   );
