@@ -1,6 +1,9 @@
-"use client";
-const Error = () => {
-  return <div>Error</div>;
-};
+"use client"
 
-export default Error;
+const Error = () => {
+  return (
+    <div>Error</div>
+  )
+}
+
+export default Error

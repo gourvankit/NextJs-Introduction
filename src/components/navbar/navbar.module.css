@@ -1,16 +1,11 @@
-.container {
+.container{
+  height: 100px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  justify-content: space-between;
 }
-.logo {
+
+.logo{
   font-size: 30px;
   font-weight: bold;
-}
-.links {
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
